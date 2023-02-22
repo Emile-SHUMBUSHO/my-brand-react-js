@@ -1,0 +1,51 @@
+
+.log{
+    margin-left: 35px;
+}
+.log img{
+    width: 55%;
+    height: 30%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #FFFF;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #C2E7FF;
+}
+
+.letConnectBtn {
+    border-radius: 5px;
+    border: 1px solid #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+

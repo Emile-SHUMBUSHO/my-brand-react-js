@@ -1,0 +1,54 @@
+/* style for skills section */
+.skills-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills-content{
+    width: 80%;
+    height: auto;
+    background-color: #151515;
+    border-radius: 25px;
+    border: 8px solid #2C244D;
+    padding: 40px;
+    margin: 0px 0 50px 0;
+}
+
+.intro-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-titles p{
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+
+}
+.skills-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.skills-radio-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #FFFF;
+    margin: 20px;
+}

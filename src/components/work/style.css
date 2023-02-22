@@ -1,0 +1,97 @@
+.my-work-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #3F2435;
+}
+.my-work-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .tabs {
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 2px solid #ffff;
+  }
+  
+  .tabBtn {
+    background-color: #3F2435;
+    border: 0;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 21px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 200px;
+  }
+  
+  .tabBtn:first-child{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  
+  .tabBtn:last-child{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .tabBtn:not(:first-child):not(:last-child){
+    border-radius: 0;
+  }
+
+.my-work-container{
+    display: flex;
+    justify-content: center;
+}
+.my-work-description{
+    font-size: 21px;
+    font-weight: 100;
+    width: 60%;
+    text-align: center;
+}
+
+.my-work-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.my-work-box img{
+    width: 90%;
+}
+
+.my-work-box {
+    position: relative;
+  }
+  
+  .my-work-box img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .my-work-box:hover img {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .my-work-box:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
